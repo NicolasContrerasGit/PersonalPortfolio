@@ -49,6 +49,7 @@ a:link {
   top: 0;
   text-align: center;
   padding: 1px;
+  box-shadow: 0px 10px 30px 5px var(--color1);
 }
 
 .indice{  width: 20%;}
@@ -74,6 +75,7 @@ a:link {
   font-family: 'Lato', sans-serif;
   color: var(--color5);
   word-spacing: 15px;
+
 }
 
 
@@ -90,6 +92,7 @@ a:link {
     padding-top: 1px;
     padding-bottom: 1px;
     display: inline-block;
+    text-align: justify;
   }
 
 
@@ -129,6 +132,7 @@ a:link {
   padding-bottom: 1px;
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
+  text-align: justify;
 }
 
 
@@ -324,6 +328,7 @@ a:link {
   text-align: center;
   font-weight: 900;
   word-spacing: 15px;
+  box-shadow: 0px -10px 30px 5px var(--color1);
 }
 
 
@@ -344,7 +349,7 @@ a:link {
     vertical-align: bottom; 
 }
 .pie{
-    width: 33%;
+    width: 25%;
 }
 
 /** Boton gmail */
@@ -360,4 +365,23 @@ a:link {
 .boton:hover{
     font-size: 110%;  
 }
+
+
+/** Teléfono */
+#telefono2{
+  display: none;
+}
+
+#telefono1:hover + #telefono2 {
+  display: block;
+  font-family: monospace;
+  font-size: 15px;
+  color: var(--color5);
+}
+
+#telefono2:hover{
+  color: white;
+}
+
+
 
