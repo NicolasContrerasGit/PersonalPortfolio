@@ -24,7 +24,17 @@ a:link {
   text-decoration: none; 
 }
 
-
+@media (max-width:700px) {  
+  #presentacion h2{
+    text-align: left;
+  }
+  #presentacion p{
+    text-align: left;
+  }
+  #formacion p{
+    text-align: left;
+  }
+}
 
 
 
@@ -256,7 +266,7 @@ a:link {
     background-color: hsla(60, 100%, 50%, 0.9);
     color: hsla(0, 100%, 50% , 0.9 );
     font-family: monospace;
-    font-size: 20px;
+    font-size: 15px;
     }
 }
 #tablaCertificados a{
@@ -382,6 +392,7 @@ a:link {
 #telefono2:hover{
   color: white;
 }
+
 
 
 
