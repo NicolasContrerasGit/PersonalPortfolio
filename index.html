@@ -113,27 +113,52 @@
 
 
 
+
+
+
   
   
   <section id = "cronologia">
-    <div>
-      <h1 style = "padding: 100px 150px 10px 150px; font-size: 35px ; text-align: center; ">
-        Cronología
-      </h1>
-    </div>
-    
-    <div style = "padding: 10px 150px 150px 150px;">      
+      <div>
+          <h1 style = "padding: 100px 150px 10px 150px; font-size: 35px ; text-align: center; ">
+            Cronología
+          </h1>
+        </div>
+        
+      <div style = "padding: 10px 150px 150px 150px;">        
         <table id = "tablaCrono">
+
+            <tr>        
+                <td> </td>
+                <!--
+                  EL PRIMER ELEMENTO DENTRO DE ESTA CRONOLOGÍA DEBE CONTNER EL ELEMENTO <div id = "barra">
+                    rowsapn = "número de elementos de la cronología + 1"
+                -->
+                <td rowspan = "8" style = "width: 10%;">  
+                    <div id = "barra">  </div>   </td>  
+                <td>  </td>
+            </tr>
+
+          <tr>        
+              <td> </td>
+              <td> <p class = "fecha1"> Junio 2021 </p>
+              <p class = "bocata"> 
+                Comienzo trabajo en Deloitte <br>
+                <img src = "Deloitte.png" alt = "Big Data" style = "width: 250px;  ">
+              </p> </td>
+          </tr>
+
           <tr>
             <td> <p class = "fecha2"> Abril 2021 </p>
                 <p class = "bocata"> 
-                  Comienzo curso "Arquitectura Big Data" <br>
+                  Curso "Arquitectura Big Data" <br>
                   <img src = "BigData.png" alt = "Big Data" style = "width: 250px; opacity: 0.8; ">
-                </p> </td>  
-            <td rowspan = "6" style = "width: 10%;">  
-            <div id = "barra">  </div>   </td>      
+                </p> 
+            </td>  
+            <td > </td>      
             <td>  </td>
           </tr>
+
           <tr>
               <td>  </td>  
               <td> <p class = "fecha1"> Febrero 2021 </p>
@@ -141,6 +166,7 @@
                 Finalización de la carrera de Matemáticas
                 </p> </td>
           </tr>
+
           <tr>
               <td> <p class = "fecha2"> 2019 </p>
                 <p class = "bocata"> 
@@ -208,7 +234,7 @@
     
     <div style = "padding: 20px 80px 150px 80px; font-size: 20px">
       <table id = "tablaCertificados">
-        
+      
         <tr>
           <th> Certificado </th>
           <th class = "noMostrar"> Horas</th>
@@ -216,6 +242,15 @@
           <th> Enlace verificación</th>
           <th class = "noMostrar"> Fecha </th>
           <th> Organización expedidora</th>
+        </tr>
+
+        <tr>
+          <td> (IFCT127PO) <br> Arquitectura Big Data </td>
+          <td class = "noMostrar"> 165 </td>
+          <td>  </td>
+          <td> <a href = "ArquitectBig.pdf" alt = "Big Data" target="_blank"> Enlace </a> </td>
+          <td class = "noMostrar"> 15/6/21</td>
+          <td> SEPE  </td>
         </tr>
 
         <tr>
