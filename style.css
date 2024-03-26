@@ -17,9 +17,10 @@ body{
 a {  
   color: var(--color5);
 }
+
 a:hover {
-  color: var(--color5);
-  font-size: 110%;
+  color: var(--color4);
+  font-size: 120%;
 }
 a:link { 
   text-decoration: none; 
